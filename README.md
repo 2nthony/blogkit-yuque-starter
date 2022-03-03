@@ -1,26 +1,20 @@
-# [Blogkit Notion Starter](https://github.com/2nthony/blogkit-notion-starter)
+# [Blogkit Yuque Starter](https://github.com/2nthony/blogkit-yuque-starter)
 
 Starter template for [blogkit](https://github.com/2nthony/blogkit).
 
 ## Getting started
 
-### Get notion template
+### 获取环境变量
 
-Duplicate the [database](https://2nthony.notion.site/cd8c60e825274c278e671af80f09f385?v=c8368886a493480b848ab10bb16b9a2b) to your notion.
+- `YUQUE_TOKEN` 在[这里](https://www.yuque.com/settings/tokens)生成 token ，权限为读取仓库和文档。
+- `YUQUE_NAMESPACE` 在[这里](https://www.yuque.com/yuque/developer/repo)可以查看如何获取仓库路径。
 
-### Get environment variables
+## 配置
 
-Follow the [Getting Started](https://developers.notion.com/docs/getting-started#getting-started) to get 2 required **environment variables**:
+1. 更新 `blogkit.config.ts` 中的 title 值。
 
-- `NOTION_TOKEN`
-- `NOTION_DATABASE_ID`
+## 部署
 
-## Configuration
+部署到 Vercel :
 
-1. Update the site title in `blogkit.config.ts`.
-
-## Deploy your own
-
-Deploy the blogkit notion starter using Vercel:
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F2nthony%2Fblogkit-notion-starter&env=NOTION_TOKEN,NOTION_DATABASE_ID)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F2nthony%2Fblogkit-yuque-starter&env=YUQUE_TOKEN,YUQUE_NAMESPACE)

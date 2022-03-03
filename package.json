@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "blogkit": "^0.3.0",
-    "blogkit-notion": "^0.4.0",
     "blogkit-theme-minimal": "^0.2.1",
+    "blogkit-yuque": "latest",
     "next": "12.1.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
