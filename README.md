@@ -2,6 +2,8 @@
 
 Starter template for [blogkit](https://github.com/2nthony/blogkit).
 
+![](https://cdn.jsdelivr.net/gh/2nthony/statics@main/uPic/Q2H5b1XW6y6i.png)
+
 ## Getting started
 
 ### 获取环境变量
